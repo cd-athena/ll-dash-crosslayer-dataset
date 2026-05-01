@@ -1,0 +1,1992 @@
+Starting TC Qdisc Monitoring for s1-eth2
+Timestamp, Qdisc Stats
+======================================================================
+Timestamp: 2026-03-31 20:20:22
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 3551 bytes 28 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 3551 bytes 28 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 221 drop_overlimit 0 new_flow_count 24 ecn_mark 0
+  new_flows_len 1 old_flows_len 0
+======================================================================
+Timestamp: 2026-03-31 20:20:23
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 6814 bytes 34 pkt (dropped 0, overlimits 1 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 6814 bytes 34 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 27 ecn_mark 0
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:24
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 510520 bytes 371 pkt (dropped 0, overlimits 331 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 510520 bytes 371 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 30 ecn_mark 1 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:25
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 1160479 bytes 801 pkt (dropped 0, overlimits 761 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 1160479 bytes 801 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 30 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:26
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 1684310 bytes 1147 pkt (dropped 0, overlimits 1104 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 1684310 bytes 1147 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 30 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:27
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 2544017 bytes 1715 pkt (dropped 0, overlimits 1671 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 2544017 bytes 1715 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 30 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:28
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 3405722 bytes 2288 pkt (dropped 0, overlimits 2243 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 3405722 bytes 2288 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 35 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:29
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 3970115 bytes 2662 pkt (dropped 0, overlimits 2617 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 3970115 bytes 2662 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 36 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:30
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 4440956 bytes 2973 pkt (dropped 0, overlimits 2926 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 4440956 bytes 2973 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 36 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:31
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 5222417 bytes 3490 pkt (dropped 0, overlimits 3443 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 5222417 bytes 3490 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 36 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:32
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 5679853 bytes 3793 pkt (dropped 0, overlimits 3743 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 5679853 bytes 3793 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:33
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 6527047 bytes 4353 pkt (dropped 0, overlimits 4303 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 6527047 bytes 4353 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:34
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 6969122 bytes 4645 pkt (dropped 0, overlimits 4593 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 6969122 bytes 4645 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:35
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 7737092 bytes 5153 pkt (dropped 0, overlimits 5101 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 7737092 bytes 5153 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:36
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 8147373 bytes 5424 pkt (dropped 0, overlimits 5370 requeues 0) 
+ backlog 3028b 2p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 8147373 bytes 5424 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 3028b 2p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1 memory_used 4688
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:37
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 9028521 bytes 6006 pkt (dropped 0, overlimits 5952 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 9028521 bytes 6006 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:38
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 9479934 bytes 6305 pkt (dropped 0, overlimits 6249 requeues 0) 
+ backlog 4542b 3p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 9479934 bytes 6305 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 4542b 3p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1 memory_used 7032
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:39
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 10245785 bytes 6811 pkt (dropped 0, overlimits 6755 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 10245785 bytes 6811 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:40
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 10637898 bytes 7070 pkt (dropped 0, overlimits 7012 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 10637898 bytes 7070 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 37 ecn_mark 1 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:41
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 11516088 bytes 7651 pkt (dropped 0, overlimits 7593 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 11516088 bytes 7651 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 38 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:42
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 11912869 bytes 7914 pkt (dropped 0, overlimits 7854 requeues 0) 
+ backlog 4542b 3p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 11912869 bytes 7914 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 4542b 3p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 38 ecn_mark 1 memory_used 7032
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:43
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 12757457 bytes 8474 pkt (dropped 0, overlimits 8414 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 12757457 bytes 8474 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 40 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:44
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 13114748 bytes 8710 pkt (dropped 0, overlimits 8648 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 13114748 bytes 8710 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 40 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:45
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 13992938 bytes 9291 pkt (dropped 0, overlimits 9229 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 13992938 bytes 9291 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 41 ecn_mark 1 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:46
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 14373260 bytes 9543 pkt (dropped 0, overlimits 9479 requeues 0) 
+ backlog 4542b 3p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 14373260 bytes 9543 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 4542b 3p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 41 ecn_mark 1 memory_used 7032
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:47
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 15024174 bytes 9973 pkt (dropped 0, overlimits 9909 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 15024174 bytes 9973 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 41 ecn_mark 1
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:48
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 15349892 bytes 10189 pkt (dropped 0, overlimits 10122 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 15349892 bytes 10189 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 42 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:49
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 16228012 bytes 10769 pkt (dropped 0, overlimits 10702 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 16228012 bytes 10769 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 42 ecn_mark 1 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:50
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 16628450 bytes 11034 pkt (dropped 0, overlimits 10965 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 16628450 bytes 11034 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 42 ecn_mark 1 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:51
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 17506570 bytes 11614 pkt (dropped 0, overlimits 11545 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 17506570 bytes 11614 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 42 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:52
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 17862241 bytes 11855 pkt (dropped 0, overlimits 11784 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 17862241 bytes 11855 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 46 ecn_mark 1 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:53
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 18741278 bytes 12446 pkt (dropped 0, overlimits 12375 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 18741278 bytes 12446 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 60 ecn_mark 29 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:20:54
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 19619385 bytes 13026 pkt (dropped 0, overlimits 12955 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 19619385 bytes 13026 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 83 ecn_mark 99 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:20:55
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 20493128 bytes 13604 pkt (dropped 0, overlimits 13529 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 20493128 bytes 13604 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 106 ecn_mark 184 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:20:56
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 21375777 bytes 14187 pkt (dropped 0, overlimits 14112 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 21375777 bytes 14187 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 125 ecn_mark 287 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:20:57
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 22251373 bytes 14766 pkt (dropped 0, overlimits 14685 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 22251373 bytes 14766 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 148 ecn_mark 348 memory_used 9376
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:20:58
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 23134022 bytes 15349 pkt (dropped 0, overlimits 15268 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 23134022 bytes 15349 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 187 ecn_mark 381 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:20:59
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 24014215 bytes 15931 pkt (dropped 0, overlimits 15848 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 24014215 bytes 15931 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 207 ecn_mark 406 memory_used 16408
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:00
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 24896864 bytes 16514 pkt (dropped 0, overlimits 16431 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 24896864 bytes 16514 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 220 ecn_mark 470 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:01
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 25776337 bytes 17095 pkt (dropped 0, overlimits 17010 requeues 0) 
+ backlog 4542b 3p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 25776337 bytes 17095 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 4542b 3p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 241 ecn_mark 535 memory_used 7032
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:02
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 26660870 bytes 17680 pkt (dropped 0, overlimits 17595 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 26660870 bytes 17680 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 261 ecn_mark 616 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:03
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 27543654 bytes 18264 pkt (dropped 0, overlimits 18179 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 27543654 bytes 18264 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 279 ecn_mark 706 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:04
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 28424789 bytes 18846 pkt (dropped 0, overlimits 18759 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 28424789 bytes 18846 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 293 ecn_mark 727 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:05
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 29307340 bytes 19429 pkt (dropped 0, overlimits 19341 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 29307340 bytes 19429 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 315 ecn_mark 783
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:21:06
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 30135485 bytes 19976 pkt (dropped 0, overlimits 19868 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 30135485 bytes 19976 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 337 ecn_mark 793 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:07
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 31018147 bytes 20559 pkt (dropped 0, overlimits 20451 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 31018147 bytes 20559 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 358 ecn_mark 847 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:08
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 31882129 bytes 21131 pkt (dropped 0, overlimits 21002 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 31882129 bytes 21131 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 380 ecn_mark 863 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:09
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 32766305 bytes 21715 pkt (dropped 0, overlimits 21586 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 32766305 bytes 21715 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 400 ecn_mark 964 memory_used 16408
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:10
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 33632634 bytes 22288 pkt (dropped 0, overlimits 22153 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 33632634 bytes 22288 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 423 ecn_mark 985 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:11
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 34516810 bytes 22872 pkt (dropped 0, overlimits 22737 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 34516810 bytes 22872 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 441 ecn_mark 1030 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:12
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 35388359 bytes 23449 pkt (dropped 0, overlimits 23302 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 35388359 bytes 23449 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 467 ecn_mark 1046 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:13
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 36272577 bytes 24034 pkt (dropped 0, overlimits 23887 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 36272577 bytes 24034 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 488 ecn_mark 1134 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:14
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 37130059 bytes 24601 pkt (dropped 0, overlimits 24446 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 37130059 bytes 24601 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 505 ecn_mark 1168 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:15
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 38014235 bytes 25185 pkt (dropped 0, overlimits 25030 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 38014235 bytes 25185 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 526 ecn_mark 1306 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:16
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 38877686 bytes 25756 pkt (dropped 0, overlimits 25593 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 38877686 bytes 25756 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 547 ecn_mark 1358 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:17
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 39740692 bytes 26327 pkt (dropped 0, overlimits 26156 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 39740692 bytes 26327 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 568 ecn_mark 1491 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:18
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 40624855 bytes 26911 pkt (dropped 0, overlimits 26740 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 40624855 bytes 26911 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 582 ecn_mark 1502 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:19
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 41479601 bytes 27476 pkt (dropped 0, overlimits 27294 requeues 0) 
+ backlog 3028b 2p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 41479601 bytes 27476 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 3028b 2p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 603 ecn_mark 1630 memory_used 4688
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:20
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 42348915 bytes 28052 pkt (dropped 0, overlimits 27859 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 42348915 bytes 28052 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 621 ecn_mark 1639 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:21
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 43233091 bytes 28636 pkt (dropped 0, overlimits 28443 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 43233091 bytes 28636 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 636 ecn_mark 1786 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:22
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 44110426 bytes 29216 pkt (dropped 0, overlimits 29020 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 44110426 bytes 29216 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 663 ecn_mark 1840 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:23
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 44993088 bytes 29799 pkt (dropped 0, overlimits 29603 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 44993088 bytes 29799 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 681 ecn_mark 2012 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:24
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 45859355 bytes 30372 pkt (dropped 0, overlimits 30161 requeues 0) 
+ backlog 21196b 14p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 45859355 bytes 30372 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 21196b 14p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 700 ecn_mark 2049 memory_used 32816
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:25
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 46742017 bytes 30955 pkt (dropped 0, overlimits 30744 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 46742017 bytes 30955 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 717 ecn_mark 2224 memory_used 14064
+  new_flows_len 1 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:21:26
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 47585971 bytes 31513 pkt (dropped 0, overlimits 31288 requeues 0) 
+ backlog 21196b 14p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 47585971 bytes 31513 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 21196b 14p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 741 ecn_mark 2303 memory_used 32816
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:27
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 48471661 bytes 32098 pkt (dropped 0, overlimits 31873 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 48471661 bytes 32098 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 754 ecn_mark 2383 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:28
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 49347182 bytes 32677 pkt (dropped 0, overlimits 32448 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 49347182 bytes 32677 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 775 ecn_mark 2426 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:29
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 50228330 bytes 33259 pkt (dropped 0, overlimits 33030 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 50228330 bytes 33259 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 796 ecn_mark 2550 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:30
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 51108730 bytes 33841 pkt (dropped 0, overlimits 33609 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 51108730 bytes 33841 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 818 ecn_mark 2637 memory_used 28128
+  new_flows_len 1 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:31
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 51989092 bytes 34423 pkt (dropped 0, overlimits 34186 requeues 0) 
+ backlog 1514b 1p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 51989092 bytes 34423 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 1514b 1p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 843 ecn_mark 2726 memory_used 2344
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:21:32
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 52871807 bytes 35007 pkt (dropped 0, overlimits 34768 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 52871807 bytes 35007 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 862 ecn_mark 2730 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:33
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 53756025 bytes 35592 pkt (dropped 0, overlimits 35353 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 53756025 bytes 35592 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 885 ecn_mark 2793 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:34
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 54615799 bytes 36160 pkt (dropped 0, overlimits 35900 requeues 0) 
+ backlog 19682b 13p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 54615799 bytes 36160 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 19682b 13p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 905 ecn_mark 2819 memory_used 30472
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:35
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 55499975 bytes 36744 pkt (dropped 0, overlimits 36484 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 55499975 bytes 36744 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 922 ecn_mark 2920 memory_used 9376
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:36
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 56364071 bytes 37315 pkt (dropped 0, overlimits 37040 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 56364071 bytes 37315 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 950 ecn_mark 2937 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:37
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 57245219 bytes 37897 pkt (dropped 0, overlimits 37622 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 57245219 bytes 37897 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 969 ecn_mark 3029 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:38
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 58113287 bytes 38471 pkt (dropped 0, overlimits 38179 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 58113287 bytes 38471 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 991 ecn_mark 3061 memory_used 14064
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:39
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 58963934 bytes 39033 pkt (dropped 0, overlimits 38734 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 58963934 bytes 39033 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1019 ecn_mark 3142 memory_used 9376
+  new_flows_len 1 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:21:40
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 59817817 bytes 39597 pkt (dropped 0, overlimits 39281 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 59817817 bytes 39597 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1043 ecn_mark 3145 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:41
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 60698965 bytes 40179 pkt (dropped 0, overlimits 39863 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 60698965 bytes 40179 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1063 ecn_mark 3249 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:42
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 61567544 bytes 40753 pkt (dropped 0, overlimits 40431 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 61567544 bytes 40753 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1093 ecn_mark 3279 memory_used 23440
+  new_flows_len 1 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:21:43
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 62451720 bytes 41337 pkt (dropped 0, overlimits 41015 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 62451720 bytes 41337 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1113 ecn_mark 3405 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:44
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 63304079 bytes 41900 pkt (dropped 0, overlimits 41553 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 63304079 bytes 41900 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1139 ecn_mark 3480 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:45
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 64188255 bytes 42484 pkt (dropped 0, overlimits 42137 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 64188255 bytes 42484 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1159 ecn_mark 3628 memory_used 16408
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:46
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 65048815 bytes 43053 pkt (dropped 0, overlimits 42691 requeues 0) 
+ backlog 9071b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 65048815 bytes 43053 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9071b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1185 ecn_mark 3676 memory_used 14051
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:47
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 65930016 bytes 43636 pkt (dropped 0, overlimits 43274 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 65930016 bytes 43636 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1204 ecn_mark 3820 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:48
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 66794924 bytes 44209 pkt (dropped 0, overlimits 43836 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 66794924 bytes 44209 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1229 ecn_mark 3846 memory_used 14064
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:49
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 67677573 bytes 44792 pkt (dropped 0, overlimits 44419 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 67677573 bytes 44792 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1243 ecn_mark 3900 memory_used 21096
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:50
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 68548608 bytes 45368 pkt (dropped 0, overlimits 44990 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 68548608 bytes 45368 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1267 ecn_mark 3942 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:51
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 69434285 bytes 45953 pkt (dropped 0, overlimits 45575 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 69434285 bytes 45953 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1283 ecn_mark 4043 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:52
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 70295246 bytes 46522 pkt (dropped 0, overlimits 46132 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 70295246 bytes 46522 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1311 ecn_mark 4109 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:53
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 71179409 bytes 47106 pkt (dropped 0, overlimits 46716 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 71179409 bytes 47106 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1336 ecn_mark 4237 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:54
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 72044493 bytes 47679 pkt (dropped 0, overlimits 47276 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 72044493 bytes 47679 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1362 ecn_mark 4325 memory_used 14064
+  new_flows_len 1 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:21:55
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 72927142 bytes 48262 pkt (dropped 0, overlimits 47859 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 72927142 bytes 48262 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1384 ecn_mark 4375 memory_used 14064
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:21:56
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 73753633 bytes 48808 pkt (dropped 0, overlimits 48380 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 73753633 bytes 48808 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1414 ecn_mark 4398 memory_used 14064
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:57
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 74636282 bytes 49391 pkt (dropped 0, overlimits 48963 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 74636282 bytes 49391 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1430 ecn_mark 4441 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:58
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 75522028 bytes 49977 pkt (dropped 0, overlimits 49549 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 75522028 bytes 49977 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1450 ecn_mark 4482 memory_used 21096
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:21:59
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 76399349 bytes 50557 pkt (dropped 0, overlimits 50126 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 76399349 bytes 50557 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1465 ecn_mark 4541
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:00
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 77278983 bytes 51138 pkt (dropped 0, overlimits 50704 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 77278983 bytes 51138 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1484 ecn_mark 4606 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:01
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 78144872 bytes 51711 pkt (dropped 0, overlimits 51268 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 78144872 bytes 51711 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1511 ecn_mark 4686
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:02
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 79024622 bytes 52293 pkt (dropped 0, overlimits 51844 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 79024622 bytes 52293 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1535 ecn_mark 4689 memory_used 21096
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:04
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 79907291 bytes 52877 pkt (dropped 0, overlimits 52428 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 79907291 bytes 52877 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1555 ecn_mark 4705 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:05
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 80758151 bytes 53439 pkt (dropped 0, overlimits 52974 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 80758151 bytes 53439 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1575 ecn_mark 4710 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:06
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 81642314 bytes 54023 pkt (dropped 0, overlimits 53558 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 81642314 bytes 54023 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1599 ecn_mark 4737 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:07
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 82499706 bytes 54591 pkt (dropped 0, overlimits 54107 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 82499706 bytes 54591 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1623 ecn_mark 4770 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:08
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 83385383 bytes 55176 pkt (dropped 0, overlimits 54692 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 83385383 bytes 55176 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1638 ecn_mark 4821 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:09
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 84234086 bytes 55737 pkt (dropped 0, overlimits 55235 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 84234086 bytes 55737 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1664 ecn_mark 4875 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:10
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 85118249 bytes 56321 pkt (dropped 0, overlimits 55819 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 85118249 bytes 56321 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1684 ecn_mark 4946 memory_used 16408
+  new_flows_len 1 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:11
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 85991638 bytes 56898 pkt (dropped 0, overlimits 56390 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 85991638 bytes 56898 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1722 ecn_mark 4976 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:12
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 86872773 bytes 57480 pkt (dropped 0, overlimits 56972 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 86872773 bytes 57480 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1737 ecn_mark 5032 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:13
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 87712861 bytes 58035 pkt (dropped 0, overlimits 57501 requeues 0) 
+ backlog 4542b 3p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 87712861 bytes 58035 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 4542b 3p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1755 ecn_mark 5089 memory_used 7032
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:14
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 88597024 bytes 58619 pkt (dropped 0, overlimits 58085 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 88597024 bytes 58619 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1780 ecn_mark 5150 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:15
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 89467782 bytes 59195 pkt (dropped 0, overlimits 58650 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 89467782 bytes 59195 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1799 ecn_mark 5199 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:16
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 90354973 bytes 59781 pkt (dropped 0, overlimits 59236 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 90354973 bytes 59781 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1816 ecn_mark 5272 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:17
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 91181557 bytes 60328 pkt (dropped 0, overlimits 59765 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 91181557 bytes 60328 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1835 ecn_mark 5364 memory_used 9376
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:18
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 92062692 bytes 60910 pkt (dropped 0, overlimits 60341 requeues 0) 
+ backlog 19682b 13p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 92062692 bytes 60910 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 19682b 13p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1854 ecn_mark 5464 memory_used 30472
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:19
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 92917701 bytes 61475 pkt (dropped 0, overlimits 60895 requeues 0) 
+ backlog 4542b 3p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 92917701 bytes 61475 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 4542b 3p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1887 ecn_mark 5540 memory_used 7032
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:20
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 93800350 bytes 62058 pkt (dropped 0, overlimits 61478 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 93800350 bytes 62058 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1899 ecn_mark 5573 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:21
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 94654212 bytes 62622 pkt (dropped 0, overlimits 62035 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 94654212 bytes 62622 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1925 ecn_mark 5645
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:22
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 95514151 bytes 63190 pkt (dropped 0, overlimits 62593 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 95514151 bytes 63190 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1946 ecn_mark 5699 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:23
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 96387903 bytes 63768 pkt (dropped 0, overlimits 63160 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 96387903 bytes 63768 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1963 ecn_mark 5709 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:24
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 97270773 bytes 64352 pkt (dropped 0, overlimits 63744 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 97270773 bytes 64352 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 1984 ecn_mark 5738 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:25
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 98120978 bytes 64914 pkt (dropped 0, overlimits 64291 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 98120978 bytes 64914 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2013 ecn_mark 5760 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:26
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 99005211 bytes 65499 pkt (dropped 0, overlimits 64876 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 99005211 bytes 65499 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2032 ecn_mark 5811 memory_used 14064
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:27
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 99876975 bytes 66075 pkt (dropped 0, overlimits 65435 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 99876975 bytes 66075 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2054 ecn_mark 5877 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:28
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 100761138 bytes 66659 pkt (dropped 0, overlimits 66019 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 100761138 bytes 66659 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2074 ecn_mark 5956 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:29
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 101613290 bytes 67222 pkt (dropped 0, overlimits 66557 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 101613290 bytes 67222 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2096 ecn_mark 5996 memory_used 23440
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:30
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 102497453 bytes 67806 pkt (dropped 0, overlimits 67141 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 102497453 bytes 67806 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2115 ecn_mark 6075 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:31
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 103347446 bytes 68368 pkt (dropped 0, overlimits 67686 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 103347446 bytes 68368 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2142 ecn_mark 6188 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:32
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 104234703 bytes 68955 pkt (dropped 0, overlimits 68273 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 104234703 bytes 68955 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2167 ecn_mark 6283 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:33
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 105103306 bytes 69529 pkt (dropped 0, overlimits 68838 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 105103306 bytes 69529 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2185 ecn_mark 6441
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:34
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 105985955 bytes 70112 pkt (dropped 0, overlimits 69416 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 105985955 bytes 70112 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2205 ecn_mark 6547 memory_used 21096
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:35
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 106841432 bytes 70678 pkt (dropped 0, overlimits 69970 requeues 0) 
+ backlog 1514b 1p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 106841432 bytes 70678 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 1514b 1p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2221 ecn_mark 6706 memory_used 2344
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:36
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 107722567 bytes 71260 pkt (dropped 0, overlimits 70544 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 107722567 bytes 71260 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2238 ecn_mark 6812 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:37
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 108551716 bytes 71808 pkt (dropped 0, overlimits 71070 requeues 0) 
+ backlog 1514b 1p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 108551716 bytes 71808 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 1514b 1p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2262 ecn_mark 6944 memory_used 2344
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:38
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 109434365 bytes 72391 pkt (dropped 0, overlimits 71652 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 109434365 bytes 72391 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2285 ecn_mark 7002 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:39
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 110310605 bytes 72970 pkt (dropped 0, overlimits 72222 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 110310605 bytes 72970 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2307 ecn_mark 7056 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:40
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 111196282 bytes 73555 pkt (dropped 0, overlimits 72807 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 111196282 bytes 73555 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2326 ecn_mark 7112 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:41
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 112062901 bytes 74128 pkt (dropped 0, overlimits 73374 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 112062901 bytes 74128 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2344 ecn_mark 7193 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:42
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 112945550 bytes 74711 pkt (dropped 0, overlimits 73957 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 112945550 bytes 74711 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2368 ecn_mark 7231 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:43
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 113821861 bytes 75290 pkt (dropped 0, overlimits 74525 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 113821861 bytes 75290 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2392 ecn_mark 7281 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:44
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 114701482 bytes 75871 pkt (dropped 0, overlimits 75104 requeues 0) 
+ backlog 19682b 13p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 114701482 bytes 75871 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 19682b 13p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2412 ecn_mark 7335 memory_used 30472
+  new_flows_len 1 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:45
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 115551673 bytes 76434 pkt (dropped 0, overlimits 75660 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 115551673 bytes 76434 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2433 ecn_mark 7404 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:46
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 116435968 bytes 77020 pkt (dropped 0, overlimits 76246 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 116435968 bytes 77020 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2449 ecn_mark 7441 memory_used 21096
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:47
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 117283222 bytes 77580 pkt (dropped 0, overlimits 76791 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 117283222 bytes 77580 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2469 ecn_mark 7507 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:48
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 118161329 bytes 78160 pkt (dropped 0, overlimits 77367 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 118161329 bytes 78160 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2492 ecn_mark 7544 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:49
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 119045379 bytes 78744 pkt (dropped 0, overlimits 77951 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 119045379 bytes 78744 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2520 ecn_mark 7634 memory_used 9376
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:50
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 119921972 bytes 79323 pkt (dropped 0, overlimits 78527 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 119921972 bytes 79323 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2537 ecn_mark 7661 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:51
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 120781058 bytes 79891 pkt (dropped 0, overlimits 79077 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 120781058 bytes 79891 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2560 ecn_mark 7710
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:52
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 121660679 bytes 80472 pkt (dropped 0, overlimits 79656 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 121660679 bytes 80472 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2582 ecn_mark 7739 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:53
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 122537824 bytes 81052 pkt (dropped 0, overlimits 80232 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 122537824 bytes 81052 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2602 ecn_mark 7800 memory_used 16408
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:54
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 123423501 bytes 81637 pkt (dropped 0, overlimits 80817 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 123423501 bytes 81637 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2623 ecn_mark 7848 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:55
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 124271681 bytes 82198 pkt (dropped 0, overlimits 81369 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 124271681 bytes 82198 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2647 ecn_mark 7941 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:22:56
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 125151302 bytes 82779 pkt (dropped 0, overlimits 81950 requeues 0) 
+ backlog 15140b 10p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 125151302 bytes 82779 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 15140b 10p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2664 ecn_mark 8006 memory_used 23440
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:57
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 126025439 bytes 83357 pkt (dropped 0, overlimits 82520 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 126025439 bytes 83357 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2684 ecn_mark 8158
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:22:58
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 126906574 bytes 83939 pkt (dropped 0, overlimits 83099 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 126906574 bytes 83939 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2703 ecn_mark 8192 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:22:59
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 127784533 bytes 84519 pkt (dropped 0, overlimits 83677 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 127784533 bytes 84519 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2721 ecn_mark 8269 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:00
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 128656584 bytes 85095 pkt (dropped 0, overlimits 84241 requeues 0) 
+ backlog 18168b 12p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 128656584 bytes 85095 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 18168b 12p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2741 ecn_mark 8318 memory_used 28128
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:01
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 129540826 bytes 85680 pkt (dropped 0, overlimits 84826 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 129540826 bytes 85680 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2756 ecn_mark 8461 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:02
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 130419303 bytes 86261 pkt (dropped 0, overlimits 85397 requeues 0) 
+ backlog 16654b 11p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 130419303 bytes 86261 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 16654b 11p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2779 ecn_mark 8531 memory_used 25784
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:03
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 131288461 bytes 86836 pkt (dropped 0, overlimits 85957 requeues 0) 
+ backlog 13626b 9p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 131288461 bytes 86836 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 13626b 9p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2803 ecn_mark 8601 memory_used 21096
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:04
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 132171110 bytes 87419 pkt (dropped 0, overlimits 86538 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 132171110 bytes 87419 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2826 ecn_mark 8654 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:05
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 133035493 bytes 87990 pkt (dropped 0, overlimits 87100 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 133035493 bytes 87990 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2852 ecn_mark 8712 memory_used 11720
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:06
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 133921170 bytes 88575 pkt (dropped 0, overlimits 87685 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 133921170 bytes 88575 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2873 ecn_mark 8753 memory_used 11720
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:07
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 134798721 bytes 89155 pkt (dropped 0, overlimits 88261 requeues 0) 
+ backlog 3028b 2p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 134798721 bytes 89155 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 3028b 2p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2898 ecn_mark 8843 memory_used 4688
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:08
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 135681370 bytes 89738 pkt (dropped 0, overlimits 88844 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 135681370 bytes 89738 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2920 ecn_mark 8874 memory_used 14064
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:09
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 136525002 bytes 90296 pkt (dropped 0, overlimits 89385 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 136525002 bytes 90296 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2945 ecn_mark 8932 memory_used 9376
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:10
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 137401595 bytes 90875 pkt (dropped 0, overlimits 89955 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 137401595 bytes 90875 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2964 ecn_mark 8969 memory_used 14064
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:11
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 138282171 bytes 91457 pkt (dropped 0, overlimits 90536 requeues 0) 
+ backlog 1514b 1p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 138282171 bytes 91457 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 1514b 1p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 2984 ecn_mark 9075 memory_used 2344
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:12
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 139161792 bytes 92038 pkt (dropped 0, overlimits 91111 requeues 0) 
+ backlog 10598b 7p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 139161792 bytes 92038 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 10598b 7p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3002 ecn_mark 9126 memory_used 16408
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:13
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 140046539 bytes 92623 pkt (dropped 0, overlimits 91688 requeues 0) 
+ backlog 1514b 1p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 140046539 bytes 92623 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 1514b 1p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3026 ecn_mark 9239 memory_used 2344
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:14
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 140930702 bytes 93207 pkt (dropped 0, overlimits 92271 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 140930702 bytes 93207 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3047 ecn_mark 9263 memory_used 9376
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:15
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 141816876 bytes 93793 pkt (dropped 0, overlimits 92857 requeues 0) 
+ backlog 3028b 2p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 141816876 bytes 93793 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 3028b 2p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3069 ecn_mark 9324 memory_used 4688
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:16
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 142679909 bytes 94364 pkt (dropped 0, overlimits 93417 requeues 0) 
+ backlog 19682b 13p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 142679909 bytes 94364 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 19682b 13p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3091 ecn_mark 9358 memory_used 30472
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:17
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 143498943 bytes 94905 pkt (dropped 0, overlimits 93932 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 143498943 bytes 94905 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3115 ecn_mark 9414 memory_used 18752
+  new_flows_len 0 old_flows_len 2
+======================================================================
+Timestamp: 2026-03-31 20:23:18
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 144375536 bytes 95484 pkt (dropped 0, overlimits 94509 requeues 0) 
+ backlog 12112b 8p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 144375536 bytes 95484 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 12112b 8p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3133 ecn_mark 9451 memory_used 18752
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:19
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 145193946 bytes 96025 pkt (dropped 0, overlimits 95032 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 145193946 bytes 96025 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3151 ecn_mark 9531
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:20
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 146076595 bytes 96608 pkt (dropped 0, overlimits 95614 requeues 0) 
+ backlog 9084b 6p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 146076595 bytes 96608 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 9084b 6p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3171 ecn_mark 9571 memory_used 14064
+  new_flows_len 0 old_flows_len 3
+======================================================================
+Timestamp: 2026-03-31 20:23:21
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 146956971 bytes 97190 pkt (dropped 0, overlimits 96195 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 146956971 bytes 97190 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3192 ecn_mark 9707
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:22
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 147754327 bytes 97725 pkt (dropped 0, overlimits 96699 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 147754327 bytes 97725 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:23
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 148025605 bytes 97905 pkt (dropped 0, overlimits 96864 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 148025605 bytes 97905 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:24
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 148372298 bytes 98134 pkt (dropped 0, overlimits 97091 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 148372298 bytes 98134 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:25
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 148506199 bytes 98223 pkt (dropped 0, overlimits 97180 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 148506199 bytes 98223 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:26
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 148845322 bytes 98447 pkt (dropped 0, overlimits 97402 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 148845322 bytes 98447 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:27
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 148982024 bytes 98538 pkt (dropped 0, overlimits 97493 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 148982024 bytes 98538 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:28
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 149316605 bytes 98759 pkt (dropped 0, overlimits 97712 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 149316605 bytes 98759 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:29
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 149494522 bytes 98877 pkt (dropped 0, overlimits 97830 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 149494522 bytes 98877 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:30
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 149807121 bytes 99084 pkt (dropped 0, overlimits 98035 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 149807121 bytes 99084 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3212 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:31
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 149807187 bytes 99085 pkt (dropped 0, overlimits 98035 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 149807187 bytes 99085 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3213 ecn_mark 9727
+  new_flows_len 1 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:32
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 150076666 bytes 99263 pkt (dropped 0, overlimits 98203 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 150076666 bytes 99263 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3213 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:33
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 150237051 bytes 99370 pkt (dropped 0, overlimits 98296 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 150237051 bytes 99370 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:34
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 150544380 bytes 99573 pkt (dropped 0, overlimits 98497 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 150544380 bytes 99573 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:35
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 150642013 bytes 99638 pkt (dropped 0, overlimits 98561 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 150642013 bytes 99638 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:36
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 150934202 bytes 99831 pkt (dropped 0, overlimits 98752 requeues 0) 
+ backlog 7570b 5p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 150934202 bytes 99831 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 7570b 5p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727 memory_used 11720
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:37
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 151585174 bytes 100261 pkt (dropped 0, overlimits 99182 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 151585174 bytes 100261 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:38
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 151875849 bytes 100453 pkt (dropped 0, overlimits 99372 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 151875849 bytes 100453 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:39
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 152190319 bytes 100661 pkt (dropped 0, overlimits 99580 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 152190319 bytes 100661 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:40
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 152477966 bytes 100851 pkt (dropped 0, overlimits 99768 requeues 0) 
+ backlog 6056b 4p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 152477966 bytes 100851 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 6056b 4p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727 memory_used 9376
+  new_flows_len 0 old_flows_len 1
+======================================================================
+Timestamp: 2026-03-31 20:23:41
+qdisc htb 1: root refcnt 13 r2q 10 default 0x10 direct_packets_stat 0 direct_qlen 1000
+ Sent 152957728 bytes 101168 pkt (dropped 0, overlimits 100085 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc fq_codel 20: parent 1:10 limit 10240p flows 1024 quantum 1514 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+ Sent 152957728 bytes 101168 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+  maxpacket 1514 drop_overlimit 0 new_flow_count 3214 ecn_mark 9727
+  new_flows_len 0 old_flows_len 1
