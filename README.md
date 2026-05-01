@@ -23,7 +23,7 @@ The dataset is organized under a two-level transport hierarchy, `dataset/tcp/` a
 
 ```
 dataset/
-├── quic/                          ← QUIC experiments (available now)
+├── quic/                          ← QUIC experiments 
 │   └── [ABR]_[CC]_[AQM]_BGflow-[N]_Exp[ID]/
 │       ├── client_log/
 │       │   ├── client_per_second.csv
@@ -36,7 +36,7 @@ dataset/
 │           ├── aqm_per_second.csv
 │           ├── ifstat_dash.csv
 │           └── ifstat_iperf.csv
-└── tcp/                           ← TCP experiments (available now)
+└── tcp/                           ← TCP experiments 
 ```
 
 ### Folder Naming Convention
@@ -75,7 +75,6 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 ## Experimental Setup
 
 - **Testbed**: Mininet-based emulation on Ubuntu
-- **Link capacity**: 7 Mbps bottleneck link
 - **Background traffic**: 0–3 concurrent iperf TCP flows
 - **ABR player**: dash.js with L2A, LoLP, and Dynamic algorithms
 - **Video source**: Live stream via Livesim2
@@ -83,12 +82,4 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 
 ---
 
-## Availability
-
-| Transport | Status |
-|---|---|
-| **QUIC** | ✅ Available — `datasets/quic/` |
-| **TCP** | ✅ Available — `datasets/tcp/` |
-
----
 
