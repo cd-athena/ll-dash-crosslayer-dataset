@@ -67,7 +67,7 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 | Layer | Directory | Key Files | Description |
 |---|---|---|---|
 | **Client / Player** | `client_log/` | `client_per_second.csv`, `client_per_segment.csv` | dash.js player metrics: bitrate, buffer level, live latency, stall events, playback rate, quality switches |
-| **Server / CC** | `server_cc_log/` | `server_cc_metrics.csv` | Per-RTT QUIC congestion control metrics: CWND, RTT, pacing rate |
+| **Server / CC** | `server_cc_log/` | `server_cc_metrics.csv`, `server_cc_metrics_raw.log` | Transport congestion control metrics (TCP & QUIC): CWND, RTT, pacing/delivery rate, bytes sent/acked, retransmissions/loss |
 | **AQM / Network** | `aqm_network_log/` | `aqm_per_second.csv`, `ifstat_dash.csv`, `ifstat_iperf.csv` | Queue backlog, drop/mark counts, DualPI2 sub-queue delays, link utilization for DASH and background traffic |
 
 ---
