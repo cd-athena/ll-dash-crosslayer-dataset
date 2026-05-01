@@ -75,9 +75,9 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 
 - **Testbed**: Mininet-based emulation on Ubuntu
 - **Link capacity**: 7 Mbps bottleneck link
-- **Background traffic**: 0–3 concurrent iperf UDP flows
+- **Background traffic**: 0–3 concurrent iperf TCP flows
 - **ABR player**: dash.js with L2A, LoLP, and Dynamic algorithms
-- **Video source**: HEVC live stream via livesim2
+- **Video source**: Live stream via Livesim2
 - **Runs per combination**: 10 repetitions (Run IDs 75–84)
 
 ---
@@ -91,21 +91,3 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 
 ---
 
-## Citation
-
-If you use this dataset in your research, please cite our paper:
-
-```bibtex
-@dataset{lldash_crosslayer_2025,
-  title   = {LL-DASH Cross-Layer Dataset},
-  author  = {},
-  year    = {2025},
-  url     = {https://github.com/cd-athena/ll-dash-crosslayer-dataset}
-}
-```
-
----
-
-## License
-
-This dataset is released for research purposes. Please refer to the repository license file for usage terms.
