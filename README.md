@@ -36,15 +36,14 @@ dataset/
 │           ├── aqm_per_second.csv
 │           ├── ifstat_dash.csv
 │           └── ifstat_iperf.csv
-└── tcp/                           ← TCP experiments (coming soon)
+└── tcp/                           ← TCP experiments (available now)
 ```
 
 ### Folder Naming Convention
 
 Each experiment folder follows the convention:
 
-```
-[ABR]_[CC]_[AQM]_BGflow-[N]_Exp[ID]
+[ABR]_[CC]_[AQM]_[Delay]*_BGflow-[N]_Exp[ID]
 ```
 
 | Field | Values |
@@ -52,10 +51,12 @@ Each experiment folder follows the convention:
 | `ABR` | `l2a`, `lolp`, `dynamic` |
 | `CC` | `cubic`, `bbr1`, `prague` |
 | `AQM` | `pfifo`, `fq_codel`, `cake`, `dualpi2` |
+| `Delay*` | `delay-1ms`, `delay-3ms`, `delay-5ms`, `delay-10ms` (Only applicable for Prague+DualPI2) |
 | `BGflow-N` | Number of background iperf flows (0, 1, 2, 3) |
-| `Exp ID` | Run number (75–84) |
+| `Exp ID` | Run number (75–84 for QUIC, 80–89 for TCP) |
 
 > **Example:** `l2a_cubic_fq_codel_BGflow-2_Exp80` — L2A ABR with CUBIC CC, FQ-CoDel AQM, 2 background flows, run 80.
+> **Example L4S:** `dynamic_prague_dualpi2_delay-1ms_BGflow-0_Exp85` — Dynamic ABR, Prague CC, DualPI2 (1ms delay), 0 background flows, run 85.
 
 ---
 
@@ -78,7 +79,7 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 - **Background traffic**: 0–3 concurrent iperf TCP flows
 - **ABR player**: dash.js with L2A, LoLP, and Dynamic algorithms
 - **Video source**: Live stream via Livesim2
-- **Runs per combination**: 10 repetitions (Run IDs 75–84)
+- **Runs per combination**: 10 repetitions (Run IDs 75–84 for QUIC, 80–89 for TCP)
 
 ---
 
@@ -87,7 +88,7 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 | Transport | Status |
 |---|---|
 | **QUIC** | ✅ Available — `datasets/quic/` |
-| **TCP** | 🔜 Coming soon — `datasets/tcp/` |
+| **TCP** | ✅ Available — `datasets/tcp/` |
 
 ---
 
