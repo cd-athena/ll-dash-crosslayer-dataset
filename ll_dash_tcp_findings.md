@@ -90,7 +90,7 @@ dash.js  →  [bottleneck: tc htb + qdisc]  →  livesim2 (port 8888)
 
 ## Figures
 
-Generated from `paper_final_quic_data.ipynb`. Each saved as `.pdf` and `.png`.
+
 
 ### 1. QoE
 ![QoE](figures/paper_figures_qoe.png)
