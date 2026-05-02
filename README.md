@@ -82,4 +82,14 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 - **Runs per combination**: 10 repetitions (Run IDs 75–84 for QUIC, 80–89 for TCP)
 
 ---
+## Results & Analysis
 
+The [`ll_dash_tcp_findings.md`](ll_dash_tcp_findings.md) document summarises the key findings from the TCP evaluation, covering:
+
+- Setup rationale (7 Mbps / 20 ms netem, 1 BDP pfifo buffer, 5-level bitrate ladder)
+- CC and AQM behaviour under 0–3 background flows, including the distinction between **loss-induced throughput collapse** (pfifo at 1 BDP) and classic bufferbloat
+- **DualPI2 `step_threshold` sensitivity**: why the 1 ms default underperforms and why 3 ms is used as the representative L4S result in the paper
+- **CAKE testbed artefact**: why same-host background flows interact poorly with CAKE's `triple-isolate` fairness model
+- Per-metric plots for QoE, bitrate, stall, quality switches, live latency, playback speed, CWND, RTT, queue delay, and link utilization
+
+All figures are in the [`figures/`](figures/) directory.
