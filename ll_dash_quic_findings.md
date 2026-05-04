@@ -82,7 +82,7 @@ Under FIFO, QUIC maintains higher CWND across load levels than TCP, reflecting i
 
 ### 8. RTT
 ![RTT](figures/quic_figures_rtt.png)
-Because QUIC pushes more data and achieves higher bandwidth against TCP flows under FIFO, it causes significantly increased RTT and queue delay compared to the TCP baseline. FQ-CoDel and L4S fix this.
+
 
 ### 9. Queue Delay
 ![Queue Delay](figures/quic_figures_queue_delay.png)
