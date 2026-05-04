@@ -84,12 +84,9 @@ All three subdirectories share timestamps, enabling direct cross-layer correlati
 ---
 ## Results & Analysis
 
-The [`ll_dash_tcp_findings.md`](ll_dash_tcp_findings.md) document summarises the key findings from the TCP evaluation, covering:
+Detailed evaluations for both transport protocols are available:
 
-- Setup rationale (7 Mbps / 20 ms netem, 1 BDP pfifo buffer, 5-level bitrate ladder)
-- CC and AQM behaviour under 0–3 background flows, including the distinction between **loss-induced throughput collapse** (pfifo at 1 BDP) and classic bufferbloat
-- **DualPI2 `step_threshold` sensitivity**: why the 1 ms default underperforms and why 3 ms is used as the representative L4S result in the paper
-- **CAKE testbed artefact**: why same-host background flows interact poorly with CAKE's `triple-isolate` fairness model
-- Per-metric plots for QoE, bitrate, stall, quality switches, live latency, playback speed, CWND, RTT, queue delay, and link utilization
+- 📄 **[`ll_dash_tcp_findings.md`](ll_dash_tcp_findings.md)**: Summarises the key findings from the TCP evaluation, including loss-induced throughput collapse under FIFO, the DualPI2 3ms tuning rationale, the CAKE testbed artefact, and the 10 core performance metrics.
+- 📄 **[`ll_dash_quic_findings.md`](ll_dash_quic_findings.md)**: Details the QUIC evaluation, comparing QUIC userspace CC behavior against TCP. Covers the proxy-induced micro-burst overhead requiring a 20ms DualPI2 tuning, QUIC's aggressiveness under FIFO against TCP cross-traffic, and the performance differences under various AQMs.
 
-All figures are in the [`figures/`](figures/) directory.
+All corresponding evaluation plots (QoE, bitrate, stall, quality switches, latency, etc.) are available in the [`figures/`](figures/) directory.
