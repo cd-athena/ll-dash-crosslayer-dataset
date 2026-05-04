@@ -28,11 +28,7 @@ Browser          Proxy            QUIC Client      QUIC Server       curl       
 
 The QUIC server uses a **pull model**: it opens a non-blocking `curl` pipe to livesim2 and hands it to PicoQUIC's pacing engine via `picoquic_mark_active_stream()`. PicoQUIC reads from the pipe only when its CC/pacing timer fires — ensuring zero application-induced bursts within a single stream.
 
-```
-                     [bottleneck: tc htb 7 Mbps + AQM]
-h1 (server) ─── s1 ═══════════════════════════════ s2 ─── h2 (client + browser)
-                 └── h3 (iperf3 sender) → h4 (iperf3 receiver) ──────────────┘
-```
+
 
 ---
 
@@ -50,15 +46,6 @@ To compensate, we increased the threshold to **20 ms**, providing enough headroo
 
 ## Results overview
 
-| CC × AQM | QoE | Latency | Queue Delay | CWND | Notes |
-|---|---|---|---|---|---|
-| Cubic + pfifo | 🔴 | 🔴 | 🔴 | 🔴 higher | **More aggressive than TCP**: grabs more link share vs TCP BG flows, but inflates RTT/Queue delay |
-| BBR1 + pfifo | 🟡 | 🟡 | 🔴 | 🟡 higher | **More persistent**: maintains higher CWND vs TCP BG flows, driving up queue occupancy |
-| Cubic + FQ-CoDel | 🟡 | 🟢 | 🟢 | 🟡 moderate | AQM flow isolation eliminates QUIC's unfair advantage |
-| BBR1 + FQ-CoDel | 🟢 | 🟢 | 🟢 | 🟢 controlled | Good combination overall |
-| Prague + DualPI2 (20 ms) | 🟢 | 🟢 | 🟢 | 🟢 tightest | 20 ms needed due to proxy burst overhead |
-| Cubic/BBR1 + CAKE | 🟡 | 🟡 | 🟡 | 🟡 | Same testbed artifact as TCP |
-
 **ABR ordering:** L2A > Dynamic > LoLP in almost all conditions. L2A consistently outperforms LoLP by more aggressively utilizing bandwidth, whereas LoLP remains conservative to preserve stability.
 
 ---
@@ -71,19 +58,19 @@ Under FIFO, QUIC appears more aggressive against competing TCP flows, keeping Qo
 
 ### 2. Bitrate
 ![Bitrate](figures/quic_figures_bitrate.png)
-QUIC over FIFO configurations (C-FIFO, B-FIFO) maintain more persistent bandwidth utilization when competing with TCP cross-traffic over droptail queues.
+
 
 ### 3. Stall Duration
 ![Stall Duration](figures/quic_figures_stall.png)
-While QUIC is more aggressive, it does not fully prevent stalls under FIFO + 2–3 BG flows due to inevitable loss-driven backoff.
+
 
 ### 4. Quality Switches
 ![Quality Switches](figures/quic_figures_quality_switch.png)
-Stable CC/AQM → stable bandwidth estimate → fewer switches. 
+
 
 ### 5. Live Latency
 ![Live Latency](figures/quic_figures_live_latency.png)
-Prague + DualPI2 lowest and most consistent. No-BG QUIC shows a marginal latency advantage over TCP from stream independence.
+
 
 ### 6. Playback Speed
 ![Playback Speed](figures/quic_figures_playback_speed.png)
@@ -99,9 +86,6 @@ Because QUIC pushes more data and achieves higher bandwidth against TCP flows un
 
 ### 9. Queue Delay
 ![Queue Delay](figures/quic_figures_queue_delay.png)
-Follows the RTT trend: QUIC over FIFO fills the queue more aggressively than TCP, leading to higher queue delays. Estimated from `tc` backlog via Little's Law:
-
-$$\text{delay (ms)} = \frac{\text{backlog (bits)}}{7{,}000{,}000} \times 1000$$
 
 ### 10. Link Utilization
 ![Link Utilization](figures/quic_figures_link_utilization.png)
