@@ -74,7 +74,7 @@ Under FIFO, QUIC appears more aggressive against competing TCP flows, keeping Qo
 
 ### 6. Playback Speed
 ![Playback Speed](figures/quic_figures_playback_speed.png)
-L4S and FQ-CoDel keep playback rate closest to 1.0 (no catch-up needed).
+
 
 ### 7. CWND
 ![CWND](figures/quic_figures_cwnd.png)
