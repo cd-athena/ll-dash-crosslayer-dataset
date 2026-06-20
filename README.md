@@ -12,7 +12,7 @@ If you use MATGen in your research, please cite the associated paper.
 Low-latency video streaming, such as Low-Latency DASH (LL-DASH), requires maintaining high Quality of Experience (QoE) under varying network conditions. In LL-DASH, QoE is jointly influenced not only by Adaptive Bitrate (ABR) decisions, but also by transport-layer Congestion Control (CC) and network-layer Active Queue Management (AQM), whose interactions remain insufficiently characterized due to limited cross-layer experimentation.
 
 We present a large-scale LL-DASH dataset comprising approximately **2,000 controlled sessions** across:
-- **3 dash.js ABR algorithms**: L2A, Dynamic, LoLP
+- **3 dash.js ABR algorithms**: L2A, Dynamic, LoLP (LoL+)
 - **3 CC schemes**: CUBIC, BBRv1, Prague
 - **2 transport protocols**: TCP and QUIC
 - **4 AQM configurations**: FIFO, FQ-CoDel, CAKE, DualPI2
